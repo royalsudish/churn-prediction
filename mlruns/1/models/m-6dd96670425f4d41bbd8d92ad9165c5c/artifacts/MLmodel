@@ -1,0 +1,24 @@
+artifact_path: file:C:/Users/ksudi/OneDrive/Desktop/psub lab/churn-prediction/mlruns/1/models/m-6dd96670425f4d41bbd8d92ad9165c5c/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.2
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.16.1
+model_id: m-6dd96670425f4d41bbd8d92ad9165c5c
+model_size_bytes: 35013482
+model_uuid: m-6dd96670425f4d41bbd8d92ad9165c5c
+prompts: null
+run_id: 095aab1e691841bcaa64a08742f803ee
+utc_time_created: '2026-09-30 14:51:48.845694'
